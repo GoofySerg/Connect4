@@ -15,17 +15,6 @@ The project is intended both as a functional game and as a technical showcase fo
 * **Minimax algorithm** for optimal move selection
 * **Alpha–Beta pruning** for significant performance optimisation
 * Clear separation between **game logic**, **AI logic**, and **UI / input handling**
-* Deterministic and reproducible AI behaviour
-
----
-
-## AI Opponents
-
-| Opponent   | Description                                                                                                                        |
-| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Easy**   | Uses a shallow search depth and/or simplified heuristics. Makes mistakes intentionally to allow beginners to win.                  |
-| **Medium** | Deeper Minimax search with a balanced heuristic evaluation function. Provides a competitive but fair challenge.                    |
-| **Hard**   | Uses Minimax with Alpha–Beta pruning at a high search depth, making near-optimal decisions. Difficult to beat without strong play. |
 
 ---
 
@@ -72,21 +61,6 @@ The heuristic design balances **aggressive play** with **blocking opponent wins*
 * Clean modular code structure
 * Problem decomposition and abstraction
 
----
-
-## How to Run
-
-1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory
-3. Run the main game file according to the language used
-
-(Exact run instructions may vary depending on environment.)
-
----
 
 ## Future Improvements
 
@@ -102,8 +76,3 @@ The heuristic design balances **aggressive play** with **blocking opponent wins*
 
 This project was built to deepen my understanding of **artificial intelligence in games** and to apply theoretical algorithms in a practical, interactive setting. It reflects a strong interest in computer science, optimisation, and intelligent systems.
 
----
-
-## Author
-
-Developed by **Sir**.
